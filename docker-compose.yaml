@@ -1,0 +1,7 @@
+services:
+  web:
+    image: nginx
+    ports:
+      - 8083:80
+    environment:
+      var: "${val}"
